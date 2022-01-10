@@ -10,7 +10,7 @@ function countWordsAndChars(words) {
     }
 
     // average number of chars per word
-    averageCharsInWords = totalCharsInWords/totalNumberWords
+    let averageCharsInWords = totalCharsInWords/totalNumberWords
 
     // output the results
     console.log('Total number of words: ' + totalNumberWords)
